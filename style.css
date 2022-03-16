@@ -1,0 +1,27 @@
+
+  label{
+      color: rgb(3, 247, 125);
+  }
+  body{
+      font-family: 'Times New Roman', Times, serif;
+  }
+  h1{
+      color:black;
+      text-align: center;
+  }
+  .container1{
+      background-color: rgb(77, 125, 187);
+      width: 551px;
+      height: 615px;
+      padding: 2px;
+  }
+  .container2{
+      background-color: white;
+      width: 500px;
+     border-radius: 8px;
+      margin: auto;
+      
+  }
+  .container3{
+      background-color:green;
+  }

@@ -6,97 +6,104 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Creat Form</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
-    <div>
-
-        <h1>Creat Account</h1>
-        <legend>User Personal Details</legend>
-        <hr>
-        <form action="form.appwrk">
-            <!-- For First Name -->
-            <label>First Name</label><br>
-            <input type="text" placeholder="Enter Your First Name"><br>
-
-            <!-- For Last Name -->
-            <label>Last Name</label><br>
-            <input type="text" placeholder="Enter Your Last Name"><br>
-
-            <!-- Foe Email Id -->
-            <label>Email</label><br>
-            <input type="email" placeholder="Enter Your Email"><br>
-
-            <!-- For Password -->
-            <label>Password</label><br>
-            <input type="Password" placeholder="Enter Your Password"><br>
-
-            <!-- For Selecting Single Options Only We Use Radio-->
-            <label>Gender</label><br>
-            <input type="radio" id="Gender1" name="Male" value="Male">
-
-            <!-- For Is Used To Make Text Clickable -->
-            <label for="Gender1">Male</label>
-            <!-- For Is Used To Make Text Clickable -->
-
-            <input type="radio" id="Gender2" name="Male" value="Female">
-
-            <!-- For Is Used To Make Text Clickable -->
-            <label for="Gender2">Female</label><br>
-            <!-- For Is Used To Make Text Clickable -->
+    <div class='container1'>
+        <div class="container2">
 
 
-            <!-- For Selecting Multiples Options We Use Checkbox-->
-            <label>Hobbies</label><br>
-            <input type="checkbox" id="Hobbies1" name="Hobbies1" value="Music">
-            <label for="Hobbies1">Music</label>
-            <input type="checkbox" id="Hobbies2" name="Hobbies2" value="Sports">
-            <label for="Hobbies2">Sports</label>
-            <input type="checkbox" id="Hobbies3" name="Hobbies3" value="Travel">
-            <label for="Hobbies3">Travel</label>
-            <input type="checkbox" id="Hobbies4" name="Hobbies4" value="Movies">
-            <label for="Hobbies4">Movies</label><br>
+            <div class='container3'>
 
-
-            <!-- For Drop Down Box -->
-            <label>Source Of Income</label><br>
-            <select>
-                <option value="Employed">Employed</option>
-                <option value="Business">Business</option>
-                <option value="Self Employed">Self Employed</option>
-                <option value="Government Job">Government Job</option>
-                <option value="Private Job">Private Job</option>
-                <option value="Other">Other</option>
-            </select>
-            <br>
-
-            <!-- For Income Range -->
-            <label>Income</label><br>
-            <input type="range" value="0" max="200000" oninput="num.value = this.value">
-            <output id="num">0</output>K<br>
-
-            <!--For Uploading Image -->
-            <label>Upload Profile Photo</label><br>
-            <input type="file" id="img" name="img" accept="image/*">
-            <br>
-
-            <!-- For Entering Age -->
-            <label>Age</label><br>
-            <input type="text" placeholder="Enter Your Age"><br>
-
-            <!-- Text Area -->
-
-            <label>Bio</label><br>
-            <textarea name="" id="text" cols="30" rows="3"></textarea><br>
+                <h1>Creat Account</h1>
+            </div>
+            <!-- <legend>User Personal Details</legend> -->
             <hr>
+            <form action="form.appwrk">
+                <!-- For First Name -->
+                <label>First Name</label><br>
+                <input type="text" placeholder="Enter Your First Name"><br>
 
-            <!-- Create Button -->
-            <button name="Button" type="submit">Create</button>
-        </form>
+                <!-- For Last Name -->
+                <label>Last Name</label><br>
+                <input type="text" placeholder="Enter Your Last Name"><br>
+
+                <!-- Foe Email Id -->
+                <label>Email</label><br>
+                <input type="email" placeholder="Enter Your Email"><br>
+
+                <!-- For Password -->
+                <label>Password</label><br>
+                <input type="Password" placeholder="Enter Your Password"><br>
+
+                <!-- For Selecting Single Options Only We Use Radio-->
+                <label>Gender</label><br>
+                <input type="radio" id="Gender1" name="Male" value="Male">
+
+                <!-- For Is Used To Make Text Clickable -->
+                <label for="Gender1">Male</label>
+                <!-- For Is Used To Make Text Clickable -->
+
+                <input type="radio" id="Gender2" name="Male" value="Female">
+
+                <!-- For Is Used To Make Text Clickable -->
+                <label for="Gender2">Female</label><br>
+                <!-- For Is Used To Make Text Clickable -->
+
+
+                <!-- For Selecting Multiples Options We Use Checkbox-->
+                <label>Hobbies</label><br>
+                <input type="checkbox" id="Hobbies1" name="Hobbies1" value="Music">
+                <label for="Hobbies1">Music</label>
+                <input type="checkbox" id="Hobbies2" name="Hobbies2" value="Sports">
+                <label for="Hobbies2">Sports</label>
+                <input type="checkbox" id="Hobbies3" name="Hobbies3" value="Travel">
+                <label for="Hobbies3">Travel</label>
+                <input type="checkbox" id="Hobbies4" name="Hobbies4" value="Movies">
+                <label for="Hobbies4">Movies</label><br>
+
+
+                <!-- For Drop Down Box -->
+                <label>Source Of Income</label><br>
+                <select>
+                    <option value="Employed">Employed</option>
+                    <option value="Business">Business</option>
+                    <option value="Self Employed">Self Employed</option>
+                    <option value="Government Job">Government Job</option>
+                    <option value="Private Job">Private Job</option>
+                    <option value="Other">Other</option>
+                </select>
+                <br>
+
+                <!-- For Income Range -->
+                <label>Income</label><br>
+                <input type="range" value="0" max="200000" oninput="num.value = this.value">
+                <output id="num">0</output>K<br>
+
+                <!--For Uploading Image -->
+                <label>Upload Profile Photo</label><br>
+                <input type="file" id="img" name="img" accept="image/*">
+                <br>
+
+                <!-- For Entering Age -->
+                <label>Age</label><br>
+                <input type="text" placeholder="Enter Your Age"><br>
+
+                <!-- Text Area -->
+
+                <label>Bio</label><br>
+                <textarea name="" id="text" cols="30" rows="3"></textarea><br>
+                <hr>
+
+                <!-- Create Button -->
+                <button name="Button" type="submit">Create</button>
+            </form>
 
 
 
-
+        </div>
 
     </div>
 </body>
